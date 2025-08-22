@@ -1,80 +1,68 @@
-# Compiled Object files
-*.slo
-*.lo
+# Build artifacts
+build/
 *.o
-*.obj
-*.pyc
-
-# Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+
+# Package files (too large for GitHub)
+*.deb
+*.rpm
 *.pkg
+*.dmg
+*.msi
 
-# Build Artifacts
-.provision
-build/
-*.bottle.tar.gz
+# Media files (too large for GitHub)
+*.mp4
+*.avi
+*.mov
+*.mkv
 
-# Run Artifacts
-*.log
-*.orig
-*.rej
+# Archive files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.7z
 
-# Vagrant Artifacts
-.vagrant
-.sources
-
-# OS artifacts
-.DS_Store
-
-# CLion IDE
-.idea
-cmake-build-debug
-cmake-build-release
-
-# QtCreator files
-osquery.config
-osquery.creator
-osquery.files
-osquery.includes
-
-# Doxygen Documentation
-doxygen/html
-doxygen/latex
-
-# Editors
-*~
-\#*\#
+# IDE and editor files
+.vscode/
+.idea/
 *.swp
-*.vscode
-.vs/
+*.swo
+*~
 
-# Tags
-tags
-cscope.files
-cscope.out
-compile_commands.json
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# CMake generated compile commands
-compile_commands.json
+# Log files
+*.log
 
-# Pyright type checker config
-pyrightconfig.json
+# Temporary files
+*.tmp
+*.temp
 
-# Ignored components
-/external/*
-!/external/examples
-!/external/cmake/cmakelibs.cmake
-!/external/CMakeLists.txt
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache directories
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node modules (if any)
+node_modules/
+
+# Python virtual environments
+venv/
+env/
+.env
